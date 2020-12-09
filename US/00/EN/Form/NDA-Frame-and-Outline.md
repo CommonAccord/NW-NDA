@@ -1,5 +1,3 @@
-CodersNote=A basic outline for an NDA.  Borrowing some terms from "TechContracts.com".
+CodersNote=This /US/EN/ version uses the basic /00/ form.  It uses the English language heading defaults from that model, so does not have any basic headings here.
 
-sec=<ol><li>{Prime.Sec}<li>{Def.Sec}<li>{Relate.Sec}<li>{Misc.Sec}</ol>
-
-=[G/NW-NDA/US/00/EN/Form/Agt-Frame.md]
+=[G/NW-NDA/00/Form/NDA-Frame-and-Outline.md]
