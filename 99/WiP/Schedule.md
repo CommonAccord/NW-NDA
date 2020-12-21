@@ -6,7 +6,7 @@ Weeks:
 
 2. Legal in Context, Ontology of Transacting
 
-3. 
+3. Dependencies, Semantic Web
 
 4.
 
