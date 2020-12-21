@@ -4,7 +4,7 @@ Weeks:
 
 1. Manifesto, Tools
 
-2. Legal in Context
+2. Legal in Context, Ontology of Transacting
 
 3. 
 
