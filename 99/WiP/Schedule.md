@@ -2,11 +2,11 @@ Schedule:
 
 Weeks:
 
-1. LegalInContext, Tools, Manifesto
+1. Manifesto, Tools
 
-2.
+2. Legal in Context
 
-3.
+3. 
 
 4.
 
