@@ -20,12 +20,3 @@ The thesis is that two aspects of Records are critical to the project
 
 This does not exclude other formats for Records. A production transacting system will use a database, probably a graph database.  Communications of transactions will often use formats such as JSON or XML.  But see below for the Mirage/OCaml decision to manage everything as git repos.
 
-
-References:
-
-Really Technical:
-
-Mirage, OCaml:  All data and code understood as git repos. https://github.com/mirage/irmin
-Which leads back to the question, could a transaction system - for instance a financial system - be organized in a decentralized manner as git repos and pull-requests?  Might that address the problem that blockchains address, without many of the disadvantages?  Is there an intermediate layer that is needed (Corda or other)?
-
-
