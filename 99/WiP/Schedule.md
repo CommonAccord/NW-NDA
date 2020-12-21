@@ -2,11 +2,11 @@ Schedule:
 
 Weeks:
 
-1. LegalInContext, Tools, Manifesto
+1. Manifesto, Tools
 
-2.
+2. Legal in Context, Ontology of Transacting
 
-3.
+3. Dependencies, Semantic Web
 
 4.
 
