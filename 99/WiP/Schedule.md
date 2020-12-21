@@ -8,7 +8,7 @@ Weeks:
 
 3. Dependencies, Semantic Web
 
-4.
+4. Records, JD Printing
 
 5.
 
