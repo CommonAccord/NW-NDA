@@ -2,6 +2,11 @@ Getting Started:
 
 To participate in the developement of NW-NDA, and in the course/development work of it, we'll do as much as possible via the git repo github.com/CommonAccord/NW-NDA.
 
+**Get a GitHub account**
+**Install VS Code and its plugin**
+**Clone NW-NDA to your GitHub account**
+**Clone your version of NW-NDA into your VS Code app**
+
 To participate fully, you will need to install the app Visual Studio Code. https://code.visualstudio.com/download
 
 Download and install VS Code.  (Tell us if you have any problems.)
@@ -17,3 +22,5 @@ Open the repo in VS Code.  Try making a change to a file, save it.  Click on the
 
 Do a pull-request.
 (Need to work through the pull-request cycle - since others will not have authority to directly commit.)
+
+**To be able to render your work locally, you will need a local webserver running Cmacc-Org or similar**
