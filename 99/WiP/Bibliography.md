@@ -3,3 +3,5 @@
 
 What Would an Integrated Development Environment for Law look like?  https://law.mit.edu/pub/whatwouldanintegrateddevelopmentenvironmentforlawlooklike/release/2
 
+Precision's Counterfeit: The Failures of Complex Documents, and Some Suggested Remedies, Howard Darmstadter,  https://www.jstor.org/stable/25758526?seq=1
+
