@@ -12,7 +12,7 @@ One thing I can't find is a "back" button.  For example, I've done some editing,
 
 The collaboration flow seems fine, too, though it needs testing.  I work, commit, push/pull.  The other person does the same, makes a pull-request.  
 
-We also need to play with pyramids of collaboration.  Presumably, these can be done a pyramids of cloning/forking/branches.
+We also need to play with pyramids of collaboration.  Presumably, these can be done as pyramids of cloning/forking/branches.
 
 
                    Party1    <---->    Party2
