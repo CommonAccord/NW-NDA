@@ -27,8 +27,6 @@ ConfInfo.Include.Specified.cl=information relating to contracts and contract rel
 
 Conf.Life.End.YMD=2021-06-30
 
-/Law.State.the=the State of California
-
 Dispute.Forum.cl=the state and federal courts for {Law.County,State}
 
 
@@ -57,9 +55,6 @@ Conf.Life.TimePeriod=3 years
 Financial.Quarter.Current.EndDate.YMD=December 31, 2018
 
 Forum.City={Law.City}
-
-Annex.Div=</i>
-
 
 Annex.Div=</i>
 
