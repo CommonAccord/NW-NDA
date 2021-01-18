@@ -19,9 +19,9 @@ Download and install VS Code.  (Tell us if you have any problems.)
 Then (please fill this in with your experience) https://code.visualstudio.com/docs/editor/github
 
 Then download github.com/CommonAccord/NW-NDA.
-(Should we use the github flow of each person cloning into their own account, then downloading from that version?  Yes?)
+(Should we use the github flow of each person cloning into their own account, then downloading from that version?)  Yes, I think this is the best way. 
 
-(I originally encountered a problem (on a new MacMini) of there not being git infrastructure on my machine.  I needed to install Xcode.  Not sure if this was necessary or a confusion.)
+Download Git https://git-scm.com/book/en/v2/Getting-Started-Installing-Git.
 
 Open the repo in VS Code.  Try making a change to a file, save it.  Click on the little "graph" (circles connected by lines) icon.  Add the modified file to the commit list (click on the + sign to move it into the commit pack, then write a short message, and commit.)
 
