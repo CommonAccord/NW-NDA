@@ -4,6 +4,7 @@ To participate in the developement of NW-NDA, and in the course/development work
 
 **Get a GitHub account**
 **Install VS Code and its plugin**
+**Install Git**
 **Clone NW-NDA to your GitHub account**
 **Clone your version of NW-NDA into your VS Code app**
 
