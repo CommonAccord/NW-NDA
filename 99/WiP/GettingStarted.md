@@ -3,9 +3,13 @@ Getting Started:
 To participate in the developement of NW-NDA, and in the course/development work of it, we'll do as much as possible via the git repo github.com/CommonAccord/NW-NDA.
 
 **Get a GitHub account**
+
 **Install VS Code and its plugin**
+
 **Install Git**
+
 **Clone NW-NDA to your GitHub account**
+
 **Clone your version of NW-NDA into your VS Code app**
 
 To participate fully, you will need to install the app Visual Studio Code. https://code.visualstudio.com/download
