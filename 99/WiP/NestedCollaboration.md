@@ -11,3 +11,5 @@ There will be drafts and proposed modifications made within those internal group
 And each of these pods of conversation may have sub-pods.  The law firm may have a team that works together and only the lead lawyer at the firm directly communicates new materials to the client.  Same within engineering, marketing, etc.
 
 Git enables this kind of nested collaboration.  It will be important to do some examples and figure out good practices. 
+
+I currently use an improvised method of nesting git repos.  It _might_ be that we should use git submodules instead.  https://git-scm.com/book/en/v2/Git-Tools-Submodules
