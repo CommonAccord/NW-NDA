@@ -1,6 +1,8 @@
 1. Introductions
 
     Jim = https://www.linkedin.com/in/jameshazard/
+    
+    Megan = https://www.linkedin.com/in/meganma75/
 
 
 2. Manifesto
@@ -13,7 +15,7 @@
     
     Use the tools of coders. Pull-requests, etc.
     
-    Express transactions and relationships in a "graaph"(sic?).
+    Express transactions and relationships in a "graph"(sic?). CodersNote = suggested edit to object-oriented law (graph may be confusing at this stage). 
     
     Connect to model document projects.
     
