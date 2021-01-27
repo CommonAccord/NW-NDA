@@ -24,9 +24,13 @@
     Make the case for governance of legal source code - a Digital Napoleonic Code.  
     https://github.com/CommonAccord/OpenTrustFabric/blob/master/File/Centre.pdf
 
-3. Future Retrospective
+3. "Future Retrospective"
     
-    Chris - 
+    Led by Chris
+    - Align on epectations for course and project
+    - Define what success looks like
+    - Identify stakeholders and their needs/requirements
+    -- Bridging the gap between software and legal work practices 
 
 
 4. Getting Started
