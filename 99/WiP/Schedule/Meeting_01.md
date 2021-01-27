@@ -13,7 +13,7 @@
     
     Use the tools of coders. Pull-requests, etc.
     
-    Express transactions and relationships in a "graph"(sic?). CodersNote = suggested edit to object-oriented law (graph may be confusing at this stage). 
+    Express transactions and relationships in a network "graph". 
     
     Connect to model document projects.
     
