@@ -29,7 +29,7 @@
 3. "Future Retrospective"
     
     Led by Chris
-    - Align on epectations for course and project
+    - Align on expectations for course and project
     - Define what success looks like
     - Identify stakeholders and their needs/requirements
     -- Bridging the gap between software and legal work practices 
