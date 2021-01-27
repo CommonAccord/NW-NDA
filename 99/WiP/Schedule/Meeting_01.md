@@ -13,6 +13,8 @@
     
     Use the tools of coders. Pull-requests, etc.
     
+    Focus on Non-Disclosure Agreements
+    
     Express transactions and relationships in a network "graph". 
     
     Connect to model document projects.
