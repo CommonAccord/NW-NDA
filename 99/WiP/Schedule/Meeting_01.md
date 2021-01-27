@@ -3,6 +3,8 @@
     Jim = https://www.linkedin.com/in/jameshazard/
     
     Megan = https://www.linkedin.com/in/meganma75/
+    
+    Chris = https://www.linkedin.com/in/chriscatoya/
 
 
 2. Manifesto
