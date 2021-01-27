@@ -21,10 +21,13 @@
     
     Connect to model document projects.
     
+    Connect to other parts of the transacting ecosystem.
+  
     Encourage "decentralized" data management.
     
     Make the case for governance of legal source code - a Digital Napoleonic Code.  
     https://github.com/CommonAccord/OpenTrustFabric/blob/master/File/Centre.pdf
+    
 
 3. "Future Retrospective"
     
