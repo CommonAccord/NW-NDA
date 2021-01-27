@@ -9,9 +9,7 @@
 
     Legal transparency, efficiency, quality
 
-    Make legal docs available in "source" format, on 
-    
-    GitHub, etc.
+    Make legal docs available in "source" format, on GitHub, etc.
     
     Use the tools of coders. Pull-requests, etc.
     
@@ -24,9 +22,10 @@
     Make the case for governance of legal source code - a Digital Napoleonic Code.  
 
 
-3. Tools
+3. Future Retrospective
     
-    GitHub, VSCode, Discord
+    Chris - 
+
 
 4. Getting Started
     
