@@ -52,12 +52,14 @@
 
     Get up on Git, VSCode, - even do a local install of Cmacc-Org using MAMP or another perl/php/web-engine.
     
-    Convert the NYCBar monster NDA into a Prose Object - 
+    Convert the NYCBar monster NDA into a more refined Prose Object - 
     
     https://github.com/CommonAccord/NW-NDA/blob/main/99/Sandbox/NYCBar/Original/Orig-NDA.md
     
-    Some help on using the /G/Z/* widgets to knit the k/vs back into a full document. 
-    https://github.com/CommonAccord/MarathonVC-Contractor-Agt/commits/main
+    
+# Some Guidance on [G/Z/ol/*] 
+
+    Some help on the "logic" of the /G/Z/* widgets used to knit the k/vs back into a full document. 
     
     =[G/Z/ol-i/s3]
     
@@ -65,9 +67,9 @@
     
     /Z/ is where the document widgets live. 
     
-    /ol-i/ will give a list numbered i, ii, iii, iv ...  /ol/ will give 1, 2, 3,  /ol/-a/ will give a, b, c, etc., /ol/-AA/ will give A, B, C, etc.  /para/ will run then all into a single paragraph, /paras/ will make them unnumbered paragraphs, etc.  ("ol-AA" because we can't use "ol-A" since some file systems do not distinguish uppercase and lowercase.)
+    /ol-i/ will give a list numbered i, ii, iii, iv ...  /ol/ will give 1, 2, 3,  /ol/-a/ will give a, b, c, etc., /ol/-AA/ will give A, B, C, etc.  /para/ will run them all into a single paragraph, /paras/ will make them separate unnumbered paragraphs, etc.  ("ol-AA" because we can't use "ol-A" since some file systems do not distinguish uppercase and lowercase.)
     
-    /s3] will give three sections - without tities.  /3] will include the titles, e.g. "2.Ti=Second Title".
+    /s3] will give three sections - without tities.  /3] will include the titles, e.g. "2.Ti=Second Title". in a formulation of Sec=<b>{Ti}<ol><li>{sec}</li></ol> (this somewhat simplified.  
     
     (These /G/Z/ widgets are an example of something that wants an algorithmic solution instead a zillion little files - an important subject for later, maybe soon). It is at the boundary with other automation things such as spreadsheet-like formula and returns from computing environments.)   
     
