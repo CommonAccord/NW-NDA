@@ -24,7 +24,7 @@ As a counterparty to an NDA, I want legal clauses that have been hardened by pub
 RE: Stanford vs Roche 
 
 
-AC
+## Acceptance Criteria
 - Can create and use formats, templates
 - Could assign legal performance and results at prose object level 
 - Can set up automation processes on:
