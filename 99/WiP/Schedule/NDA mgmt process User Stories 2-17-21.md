@@ -1,8 +1,4 @@
-As a x, I want y, so that z.
-
-Acceptance Criteria
-- Given (state condition), then (expected result)
-
+# User Story
 
 As a corporate lawyer in Tech, I want to craft NDAs that leverage prose objects, so that I can ensure:
 - consistency,
@@ -32,8 +28,16 @@ AC
 - Can create and use formats, templates
 - Could assign legal performance and results at prose object level 
 - Can set up automation processes on:
-—prose objects, 
-—documents, and 
-—document portfolios
+  - prose objects, 
+  - documents, and 
+  - document portfolios
 - “Playbooks” set of internal contract goals, sorted by pre-approval or needs approval
-— Editing + approval process when system has no pre-existing internal legal guidance, prose object, or defined dictionary
+  - Editing + approval process when system has no pre-existing internal legal guidance, prose object, or defined dictionary
+
+--------
+# User Story Format:
+As a x, I want y, so that z.
+
+Acceptance Criteria
+- Given (state condition), then (expected result)
+
