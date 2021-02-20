@@ -24,3 +24,8 @@ Agt.Body={Head.Div}{Among.Div}{Prologue.Div}{Text.Div}{By.Div}{Annex.Div}
 
 Prologue.Div={This.Div}{Why.Div}{That.Div}
 
+Have added a link to the existing agreement frame so that the variable will be populated with the existing components and we can see what they could look like as we move along. 
+
+=[G/Agt-Form-CmA/US/0.md]
+
+
