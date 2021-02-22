@@ -1,6 +1,7 @@
 import re
 
 thisDict = {
+    "path": "thisDict",
     "2": "2",
     "3": "3",
     "5": "5",
@@ -19,22 +20,65 @@ thisDict = {
     "wl": "wall"
 }
 
-thisDict["Model.Root"]
+thatDict = {
+    "path": "thatDict",
+    "13": "13",
+    "13 x 13": "{13} x {13}",
+    "169": "{13 x 13}",
+    "Model.Root": "{169} books on the {House Element}-mounted {Furniture}.",
+    "Furniture": "b{u}kshelves",
+    "u": "oo"
+}
+
+anotherDict = {
+    "path": "anotherDict",
+    "11": "11",
+    "11 x 11": "{11} x {11}",
+    "121": "{11 x 11}",
+    "Model.Root": "{121} bottles of b{i}r and {Favored Beverage} on the {Furniture}.",
+    "Favored Beverage": "whiskey"
+}
+
+directory = [thisDict, thatDict, anotherDict]
 
 
-def find_value(key):
-    value = thisDict[key]
-    search = [x.group() for x in re.finditer(r'{(.*?)}', value)]
+#When there are more than one identical key throughout dictionaries: prioritizes current dict for now -> Later how?
+#Limitation: We only go through dictionaries in the order given in directory; the first key we find will be used, always
+#Had to add "path" field to all dictionaries to keep track of pathname -> had no way to print out the name of dictionary without using globals() = bad practice
+
+def find_value(dictionary, key):
     
-    # End case
-    if len(search) == 0:
-        return value
+    #Case when the key does not exist in this dictionary
+    if key not in dictionary:
+        for x in range(len(directory)):
+            if directory[x] != dictionary and key in directory[x]:
+                return find_value(directory[x], key)
+            
+        #When the key does not exist in any of dictionaries
+        raise KeyError ("Key not found in directory")
     
+    #Case when the key does exist in this dictionary
     else:
-        for i in range(len(search)):
-            new_val = find_value(search[i][1:-1])
-            value = value.replace(search[i], new_val, 1)
-        return value
+        value = dictionary[key]
+        search = [x.group() for x in re.finditer(r'{(.*?)}', value)]
+        path = "{" + key + "}" + " from: " + dictionary["path"] + "\n"
 
-find_value("Model.Root")
+        # End case
+        if len(search) == 0:
+            return value, path
 
+        else:
+            for i in range(len(search)):
+                new_val, new_path = find_value(dictionary, search[i][1:-1])
+                value = value.replace(search[i], new_val, 1)
+                path += new_path
+            return value, path
+
+value, path = find_value(anotherDict, "Model.Root")
+print("Value: ", value)
+print("Path:\n", path)
+
+
+#Called inside find_value when there is no such key in the given dictionary input
+#Find the key from other dictionaries, keep log of which path; return
+# def fetch_value(dictionary, key):
