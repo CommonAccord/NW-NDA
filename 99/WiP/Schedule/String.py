@@ -13,7 +13,9 @@ thisDict = {
     "8": "{2 x 2} x {2}",
     "16": "{2 x 2} x {2 x 2}",
     "96": "{16} x {6}",
-    "Model.Root": "{96} bottles of {Favored Beverage} on the {House Element}.",
+    "thisModel.Root": "thisModel.Root: {96} bottles of {Favored Beverage} on the {House Element}{period}",
+    "Model.Root": "{thisModel.Root}",
+    "period": "." ,
     "Favored Beverage": "b{i}r",
     "House Element": "{wl}",
     "i": "ee",
@@ -24,8 +26,10 @@ thatDict = {
     "path": "thatDict",
     "13": "13",
     "13 x 13": "{13} x {13}",
-    "169": "{13 x 13}",
-    "Model.Root": "{169} books on the {House Element}-mounted {Furniture}.",
+    "169": "qqq {16}",
+    "thatModel.Root": "thatModel.Root: {169} books on the {House Element}-mounted {Furniture}.",
+    "Model.Root": "{thatModel.Root}",
+
     "Furniture": "b{u}kshelves",
     "u": "oo"
 }
@@ -35,8 +39,10 @@ anotherDict = {
     "11": "11",
     "11 x 11": "{11} x {11}",
     "121": "{11 x 11}",
-    "Model.Root": "{121} bottles of b{i}r and {Favored Beverage} on the {Furniture}.",
-    "Favored Beverage": "whiskey"
+    "anotherModel.Root": "anotherModel.Root: {121} bottles of b{i}r and {Favored Beverage} on the {Furniture}.",
+    "Favored Beverage": "whiskey",
+    "megaModel.Root" : "{thisModel.Root} ... {thatModel.Root} ... {anotherModel.Root}",
+    "Model.Root": "{anotherModel.Root}"
 }
 
 directory = [thisDict, thatDict, anotherDict]
@@ -74,8 +80,10 @@ def find_value(dictionary, key):
                 path += new_path
             return value, path
 
-value, path = find_value(anotherDict, "Model.Root")
+value, path = find_value(thisDict, "megaModel.Root")
+
 print("Value: ", value)
+
 print("Path:\n", path)
 
 
